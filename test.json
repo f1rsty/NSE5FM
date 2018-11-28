@@ -1,0 +1,354 @@
+{
+    "quiz": {
+        "1": {
+            "question": "What is the purpose of administrative domains (ADOMs) on FortiManager?\n",
+            "options": [
+                "A. To enable FortiManager as a local FortiGuard distribution server",
+                "B. To divide administrator of devices and restrict administrator access",
+                "C. To enable logging",
+                "D. To allow global access for administrators"
+            ],
+            "answer": "B"
+        },
+        "2": {
+            "question": "What Does the Fabric View pane allow you to do?\n",
+            "options": [
+                "A. View security fabric ratings of configurations for FortiGate security fabric groups",
+                "B. Generate security fabric ratings for FortiGate devices",
+                "C. Enable per device logging",
+                "D. Rate each FortiGate"
+            ],
+            "answer": "A"
+        },
+        "3": {
+            "question": "Which statement about the global ADOM layer is true?\n",
+            "options": [
+                "A. The same policy can be assigned to multiple ADOMs",
+                "B. Global ADOM rules automatically installed on managed ForitGate Devices",
+                "C. Allows per device configuration",
+                "D. Does not effect header and footer policies"
+            ],
+            "answer": "A"
+        },
+        "4": {
+            "question": "What information is recorded in the device manager layer for managed devices on FortiManager?\n",
+            "options": [
+                "A. Common ADOM object database",
+                "B. Real-time status of managed devices",
+                "C. Global device configurations",
+                "D. Real-time logs"
+            ],
+            "answer": "B"
+        },
+        "5": {
+            "question": "Which statement about FortiAnalyzer features on FortiManager is true?\n",
+            "options": [
+                "A. FortiManager does not support the reports",
+                "B. FortiManager has logging rate restrictions as compared to FortiAnalyzer",
+                "C. FortiManager does not allow any logging",
+                "D. FortiManager has more log capability than FortiAnalyzer"
+            ],
+            "answer": "B"
+        },
+        "6": {
+            "question": "Which port is used between FortiManager and FortiGate for IPv4 remote configuration management of FortiGate devices?\n",
+            "options": [
+                "A. TCP 145",
+                "B. TCP 514",
+                "C. TCP 5114",
+                "D. TCP 541"
+            ],
+            "answer": "D"
+        },
+        "7": {
+            "question": "Which statement about a large MSSP using FortiManager is true?\n",
+            "options": [
+                "A. Each customer must have a dedicated FortiManager device",
+                "B. FortiManager is not recommended in an MSSP scenario",
+                "C. ADOMs can be used to separate customers",
+                "D. VDOMs can be used to seperate customers"
+            ],
+            "answer": "C"
+        },
+        "8": {
+            "question": "Which of the following APIs are available on FortiManager?\n",
+            "options": [
+                "A. REST API",
+                "B. UML API",
+                "C. JSON API",
+                "D. XML API"
+            ],
+            "answer": "C"
+        },
+        "9": {
+            "question": "What is the main purpose of Backup ADOM mode?\n",
+            "options": [
+                "A. To allow ADOM locking",
+                "B. To install policy package changes offline",
+                "C. To filter ADOMs",
+                "D. To maintain the backup configuration of managed devices"
+            ],
+            "answer": "D"
+        },
+        "10": {
+            "question": "How can you restrict an administrator’s access to only a few ADOMs on FortiManager?\n",
+            "options": [
+                "A. By disabling concurrent access to ADOMs",
+                "B. By assigning ADOMs to the administrator account",
+                "C. Utilizing trusted hosts",
+                "D. Protocol restricton"
+            ],
+            "answer": "B"
+        },
+        "11": {
+            "question": "Which of the following feature is available on the Restricted Admin profile?\n",
+            "options": [
+                "A. Device registration",
+                "B. IPS Sensor",
+                "C. Security Fabric",
+                "D. Log View"
+            ],
+            "answer": "B"
+        },
+        "12": {
+            "question": "When should an administrator consider using workspace mode?\n",
+            "options": [
+                "A. When an administrator only uses one specific ADOM",
+                "B. When multiple managed FortiGate devices have a single administrator",
+                "C. Always",
+                "D. When multiple administrators require concurrent access"
+            ],
+            "answer": "D"
+        },
+        "13": {
+            "question": "Which statement is true regarding locking an ADOM?\n",
+            "options": [
+                "A. It automatically removes locks on devices and policy packages",
+                "B. Other administrators have read/write access",
+                "C. It requires admin approval to unlock a device",
+                "D. There is no locking on an ADOM level"
+            ],
+            "answer": "A"
+        },
+        "14": {
+            "question": "How can you restrict an administrator’s access to only a few ADOMs on FortiManager?\n",
+            "options": [
+                "A. By disabling concurrent access to ADOMs",
+                "B. By setting up restricted hosts",
+                "C. By assigning ADOMs to the administrator account",
+                "D. By restricting protocols"
+            ],
+            "answer": "C"
+        },
+        "15": {
+            "question": "Which of the following steps are the best practices after FortiGate firmware upgrade?\n",
+            "options": [
+                "A. Push policy package and run script to update objects",
+                "B. Upgrade the ADOM and retrieve configuration",
+                "C. Restore from backup",
+                "D. Configure new backup"
+            ],
+            "answer": "B"
+        },
+        "16": {
+            "question": "Which of the following steps are included in the FortiManager backup?\n",
+            "options": [
+                "A. Logs and firmware images",
+                "B. Global database and all devices",
+                "C. ADOM only database",
+                "D. Configuration only"
+            ],
+            "answer": "B"
+        },
+        "17": {
+            "question": "Which of the following statements are true regarding scheduled backups of FortiManager?\n",
+            "options": [
+                "A. Supports FTP, SCP and SFTP",
+                "B. Can be configured using the CLI and GUI",
+                "C. Can only be done through scripts",
+                "D. Can be scheduled for off-hours only"
+            ],
+            "answer": "A"
+        },
+        "18": {
+            "question": "When should an administrator use event logs at debug level?\n",
+            "options": [
+                "A. Fortinet never recommends debug levels",
+                "B. When searching for an admin event log",
+                "C. When investigating a FortiManager issue with technical support",
+                "D. Always"
+            ],
+            "answer": "C"
+        },
+        "19": {
+            "question": "What is the main purpose of using APIs on FortiManager?\n",
+            "options": [
+                "A. Can manage FortiManager device using third-party software and hardware",
+                "B. Can manage many devices without a FortiManager license",
+                "C. Gathering informaton",
+                "D. Reporting"
+            ],
+            "answer": "A"
+        },
+        "20": {
+            "question": "Which of the following statements are true regarding system templates?\n",
+            "options": [
+                "A. Facilitate identical device-level settings across many devices",
+                "B. You can use them to install a common policy package across multiple devices",
+                "C. System templates are an older feature of FortiManager and no longer used",
+                "D. Can be used to restore from backup"
+            ],
+            "answer": "A"
+        },
+        "21": {
+            "question": "What is the main benefit of exporting a template from one ADOM to another?\n",
+            "options": [
+                "A. All policy packages also get exported along with the template",
+                "B. Can also be used as a backup template",
+                "C. You can use the same template across devices in multiple ADOMs without much effort",
+                "D. You retain header and footer policies"
+            ],
+            "answer": "C"
+        },
+        "22": {
+            "question": "When you link the model device to the real device, what are the two methods you could use?\n",
+            "options": [
+                "A. IP Address and serial number",
+                "B. IP Address and Hostname",
+                "C. Hostname and serial number",
+                "D. Serial number and preshared key"
+            ],
+            "answer": "D"
+        },
+        "23": {
+            "question": "What is the # diagnose dvm device list command use for?\n",
+            "options": [
+                "A. To view individual cluster members of the FortiGate HA Cluster",
+                "B. To install all the pending device configuration changes using the CLI",
+                "C. To diagnose errors",
+                "D. To show configuration of each device"
+            ],
+            "answer": "A"
+        },
+        "24": {
+            "question": "How do you enable FGFM access on FortiGate?\n",
+            "options": [
+                "A. Through the FortiGate interfaces",
+                "B. Through FortiGate admin settings",
+                "C. Through the FortiManager CLI",
+                "D. Through the FortiGate CLI"
+            ],
+            "answer": "A"
+        },
+        "25": {
+            "question": "Which FGFM process runs on FortiGate?\n",
+            "options": [
+                "A. FGFMSD",
+                "B. FGFMD",
+                "C. SFGFMD",
+                "D. FGFM does not run on the FortiGate"
+            ],
+            "answer": "B"
+        },
+        "26": {
+            "question": "How does FortiManager determine if sync status of a managed device is Out-Of-Sync",
+            "options": [
+                "A. It compares current revision history with FortiGate configuration",
+                "B. It compares device level database with FortiGate configuration",
+                "C. It compares the ADOM level database with the device level database",
+                "D. FortiManager is unable to determine when a managed device is out-of-sync"
+            ],
+            "answer": "A"
+        },
+        "27": {
+            "question": "What does device settings status modified indiciate?\n",
+            "options": [
+                "A. Configuration changes made directly on FortiGate are automatically updated on FortiManager and tagged as Modified",
+                "B. Device-level configuration changes are made on FortiManager for the managed devices"
+            ],
+            "answer": "B"
+        },
+        "28": {
+            "question": "Which option should you select when installing policy package changes?\n",
+            "options": [
+                "A. Install Device Settings only",
+                "B. Install Policy Package only",
+                "C. Install Policy Package and Device Settings"
+            ],
+            "answer": "C"
+        },
+        "29": {
+            "question": "What is the key difference between the install wizard and install config option?\n",
+            "options": [
+                "A. The install wizard goes through many steps",
+                "B. The install config goes through many steps"
+            ],
+            "answer": "A"
+        },
+        "30": {
+            "question": "What is the one of the main ways that you can take advantage of the revision history?\n",
+            "options": [
+                "A. To modify FortiManager system settings",
+                "B. To view and download a FortiGate configuration revision",
+                "C. To change the revision history",
+                "D. To accept risk"
+            ],
+            "answer": "B"
+        },
+        "31": {
+            "question": "What is the main benefit of FortiManager’s revert feature?\n",
+            "options": [
+                "A. Admin can make global ADOM changes",
+                "B. Admin can factory-reset FortiManager",
+                "C. Admin can revert the device database to a previous revision",
+                "D. Admin can enable logging"
+            ],
+            "answer": "C"
+        },
+        "32": {
+            "question": "What type of scripts are supported on FortiManager?\n",
+            "options": [
+                "A. Bash and Linux shell scripts",
+                "B. Python scripts",
+                "C. Perl Scripts",
+                "D. CLI and TCL Scripts"
+            ],
+            "answer": "D"
+        },
+        "33": {
+            "question": "What happens to the Device Settings status if you execute a script using the Remote FortiGate?\n",
+            "options": [
+                "A. It will be tagged as Auto-Updated",
+                "B. It will be tagged as Modified",
+                "C. Nothing",
+                "D. You cannot execute scripts using a remote FortiGate"
+            ],
+            "answer": "B"
+        },
+        "34": {
+            "question": "What is the purpose of the dynamic objects?\n",
+            "options": [
+                "A. To merge duplicate objects automatically",
+                "B. To map a single logical object to a unique definition per device"
+            ],
+            "answer": "B"
+        },
+        "35": {
+            "question": "Which one of the following statements is correct regarding a policy package?\n",
+            "options": [
+                "A. A policy package can have multiple installation targets in an ADOM",
+                "B. There can be only one policy package per ADOM"
+            ],
+            "answer": "A"
+        },
+        "36": {
+            "question": "What does a policy package status of Unknown indicate?\n",
+            "options": [
+                "A. FortiManager is unable to determine the policy package status",
+                "B. The policy package was never installed from FortiManager",
+                "C. FortiManager is able to see the package but unable to parse the package"
+            ],
+            "answer": "A"
+        }
+    }
+}
