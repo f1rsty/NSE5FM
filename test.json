@@ -458,8 +458,8 @@
         "49": {
             "question": "What command can be used to sniff the FGFM protocol communication between FortiManager and FortiGate devices?\n",
             "options": [
-                "A. Diagnose sniffer packet any “port 8331” 4",
-                "B. Diagnose sniffer packet any “port 541” 4"
+                "A. Diagnose sniffer packet any port 8331 4",
+                "B. Diagnose sniffer packet any port 541 4"
             ],
             "answer": "B"
         },
