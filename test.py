@@ -9,6 +9,8 @@ with open('test.json', 'r') as f:
 
     for x in quizData['quiz']:
         total = x
+    
+    print("There are a total of " + total + " questions\n")
 
     for i in quizData['quiz']:
         print(i + '. ' + quizData['quiz'][i]['question'])
@@ -21,6 +23,8 @@ with open('test.json', 'r') as f:
             print("Correct!\n")
         else:
             print("Incorrect!\n")
+
+f.close()
 
 final = (score / int(total)) * 100
 
