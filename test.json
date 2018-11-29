@@ -349,6 +349,87 @@
                 "C. FortiManager is able to see the package but unable to parse the package"
             ],
             "answer": "A"
+        },
+        "37": {
+            "question": "What is the main benefit of the Re-Install Policy option?\n",
+            "options": [
+                "A. Policy push with fewer steps for quick policy change",
+                "B. Can schedule policy push",
+                "C. Policies will be refreshed"
+            ],
+            "answer": "A"
+        },
+        "38": {
+            "question": "What is the sequence of upgrading an existing ADOM?\n",
+            "options": [
+                "A. Upgrade all ADOMs then all devices then ADOMs again",
+                "B. Upgrade the ADOM first and then all the devices in the ADOM",
+                "C. Upgrade all the devices in the ADOM first then the ADOM"
+            ],
+            "answer": "C"
+        },
+        "39": {
+            "question": "Why should the ADOM version match the FortiGate firmware version?\n",
+            "options": [
+                "A. Fortinet recommends always being on the latest patch",
+                "B. To keep the FortiGate license up to date",
+                "C. To prevent delays in data transfer",
+                "D. To minimize CLI syntax issues between FortiGate and FortiManager"
+            ],
+            "answer": "D"
+        },
+        "40": {
+            "question": "Which of the following statements is true regarding workflow mode?\n",
+            "options": [
+                "A. Workflow mode is enabled only on the FortiManager CLI",
+                "B. Workflow sessions can be created by locking an individual policy package",
+                "C. Workflow is used to prevent log restrictions",
+                "D. Workflow is a faster way to enable policies"
+            ],
+            "answer": "A"
+        },
+        "41": {
+            "question": "What is the main benefit of the policy locking feature?\n",
+            "options": [
+                "A. It allows locking multiple policy packages instead of the whole ADOM",
+                "B. It allows locking multiple firewall policies in a policy package",
+                "C. It allows locking a single policy package instead of the whole ADOM",
+                "D. Allows admins to make changes while other admins are viewing policies"
+            ],
+            "answer": "C"
+        },
+        "42": {
+            "question": "What must you specify when you configure an SD-WAN?\n",
+            "options": [
+                "A. At least two interfaces and no policies associated with member interfaces",
+                "B. A Fortinet SD-WAN License"
+            ],
+            "answer": "A"
+        },
+        "43": {
+            "question": "What is the main benefit of creating an SD-WAN using FortiManager?\n",
+            "options": [
+                "A. It allows creating an SD-WAN for multiple FortiGate devices",
+                "B. It allows locking multiple firewall policies in a policy package"
+            ],
+            "answer": "A"
+        },
+        "44": {
+            "question": "What is the purpose of the global ADOM on FortiManager?\n",
+            "options": [
+                "A. To push global device-level changes to devices in selected ADOMs",
+                "B. To push similar firewall policies universally to selected ADOMs"
+            ],
+            "answer": "A"
+        },
+        "45": {
+            "question": "How are global objects identified?\n",
+            "options": [
+                "A. Global object starts with ‘g’",
+                "B. Global objects starts with ‘o’",
+                "C. Global objects starts with ‘c’"
+            ],
+            "answer": "A"
         }
     }
 }
