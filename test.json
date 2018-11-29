@@ -104,7 +104,7 @@
             "question": "Which of the following feature is available on the Restricted Admin profile?\n",
             "options": [
                 "A. Device registration",
-                "B. IPS Sensor",
+                "B. IPS Sensor and Web Filter profile",
                 "C. Security Fabric",
                 "D. Log View"
             ],
@@ -296,7 +296,7 @@
             "answer": "B"
         },
         "31": {
-            "question": "What is the main benefit of FortiManager’s revert feature?\n",
+            "question": "What is the main benefit of FortiManager's revert feature?\n",
             "options": [
                 "A. Admin can make global ADOM changes",
                 "B. Admin can factory-reset FortiManager",
@@ -504,6 +504,26 @@
                 "B. Device-Level database"
             ],
             "answer": "A"
+        },
+        "55": {
+            "question": "What configuration setting for FortiGate is part of a device-level database on FortiManager?\n",
+            "options": [
+                "A. VIP and IP Pools",
+                "B. Security proifles",
+                "C. Routing",
+                "D. Firewall policies"
+            ],
+            "answer": "C"
+        },
+        "56": {
+            "question": "Which CLI command you can use to confirm if ADOMs are enabled or disabled on FortiManager?\n",
+            "options": [
+                "A. diagnose test application adom -1 and diagnose debug enable",
+                "B. show system interface",
+                "C. execute system adom-status",
+                "D. get system status"
+            ],
+            "answer": "D"
         }
     }
 }
