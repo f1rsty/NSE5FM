@@ -3,6 +3,17 @@ import json
 
 score = 0
 
+def get_valid_input():
+
+    while True:
+        answer = input("Answer: ").upper()
+        if answer not in ('A', 'B', 'C', 'D'):
+            print("\nPlease enter a valid character from a-d")
+        else:
+            break
+
+    return answer
+
 with open('test.json', 'r') as f:
 
     quizData = json.load(f)
@@ -16,7 +27,7 @@ with open('test.json', 'r') as f:
         print(i + '. ' + quizData['quiz'][i]['question'])
         print('\n'.join(quizData['quiz'][i]['options']))
         
-        answer = input("Answer: ").upper()
+        answer = get_valid_input()
 
         if answer == quizData['quiz'][i]['answer']:
             score+=1
@@ -31,3 +42,4 @@ final = (score / int(total)) * 100
 _ = "Your score is: " + str(round(final, 1)) + "%"
 
 print(_)
+
