@@ -420,7 +420,7 @@
                 "A. To push global device-level changes to devices in selected ADOMs",
                 "B. To push similar firewall policies universally to selected ADOMs"
             ],
-            "answer": "A"
+            "answer": "B"
         },
         "45": {
             "question": "How are global objects identified?\n",
