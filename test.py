@@ -1,5 +1,5 @@
 import json
-import random
+
 
 score = 0
 
@@ -16,9 +16,9 @@ with open('test.json', 'r') as f:
         print(i + '. ' + quizData['quiz'][i]['question'])
         print('\n'.join(quizData['quiz'][i]['options']))
         
-        ans = input("Answer: ").upper()
+        answer = input("Answer: ").upper()
 
-        if ans == quizData['quiz'][i]['answer']:
+        if answer == quizData['quiz'][i]['answer']:
             score+=1
             print("Correct!\n")
         else:
