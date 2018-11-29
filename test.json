@@ -131,7 +131,7 @@
             "answer": "A"
         },
         "14": {
-            "question": "How can you restrict an administrator’s access to only a few ADOMs on FortiManager?\n",
+            "question": "How can you restrict an administrator's access to only a few ADOMs on FortiManager?\n",
             "options": [
                 "A. By disabling concurrent access to ADOMs",
                 "B. By setting up restricted hosts",
