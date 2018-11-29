@@ -91,7 +91,7 @@
             "answer": "D"
         },
         "10": {
-            "question": "How can you restrict an administrator’s access to only a few ADOMs on FortiManager?\n",
+            "question": "How can you restrict an administrator's access to only a few ADOMs on FortiManager?\n",
             "options": [
                 "A. By disabling concurrent access to ADOMs",
                 "B. By assigning ADOMs to the administrator account",
@@ -425,9 +425,9 @@
         "45": {
             "question": "How are global objects identified?\n",
             "options": [
-                "A. Global object starts with ‘g’",
-                "B. Global objects starts with ‘o’",
-                "C. Global objects starts with ‘c’"
+                "A. Global object starts with 'g'",
+                "B. Global objects starts with 'o'",
+                "C. Global objects starts with 'c'"
             ],
             "answer": "A"
         },
