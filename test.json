@@ -430,6 +430,80 @@
                 "C. Global objects starts with ‘c’"
             ],
             "answer": "A"
+        },
+        "46": {
+            "question": "What are the advantages of Security Fabric on FortiManager?\n",
+            "options": [
+                "A. Can add and delete devices using Security Fabric",
+                "B. Can view network topology and important security rating for each device"
+            ],
+            "answer": "B"
+        },
+        "47": {
+            "question": "How do you identify the root FortiGate in FortiManager Security Fabric?\n",
+            "options": [
+                "A. By an asterisk (*) at the end of the root FortiGate",
+                "B. By an arrow at the end of the root FortiGate"
+            ],
+            "answer": "A"
+        },
+        "48": {
+            "question": "If FortiManager is behind a NAT device, which one of the following steps is recommended?\n",
+            "options": [
+                "A. Configure the NATed IP Address of FortiManager on the FortiGate device",
+                "B. Configure the NAT device IP address of the FortiGate device"
+            ],
+            "answer": "A"
+        },
+        "49": {
+            "question": "What command can be used to sniff the FGFM protocol communication between FortiManager and FortiGate devices?\n",
+            "options": [
+                "A. Diagnose sniffer packet any “port 8331” 4",
+                "B. Diagnose sniffer packet any “port 541” 4"
+            ],
+            "answer": "B"
+        },
+        "50": {
+            "question": "Which one of the following statements about FortiManager best practices is true?\n",
+            "options": [
+                "A. If FortiManager needs to be turned off always perform a graceful shutdown using the execute shutdown command",
+                "B. If FortiManager needs to be turned off always unplug the power supply cable"
+            ],
+            "answer": "A"
+        },
+        "51": {
+            "question": "Which command is useful when troubleshooting ADOM-level issues?\n",
+            "options": [
+                "A. Execute fmpolicy print-device-object",
+                "B. Execute fmpolicy print-adom-database"
+            ],
+            "answer": "B"
+        },
+        "52": {
+            "question": "What configuration setting for FortiGate is part of a device-level database on FortiManager?\n",
+            "options": [
+                "A. Routing",
+                "B. Switching",
+                "C. Firewall Policies"
+            ],
+            "answer": "C"
+        },
+        "53": {
+            "question": "Which one of the following statements about Copy Failed is true?\n",
+            "options": [
+                "A. An operation that fails to copy the device database from the revision history",
+                "B. An operation that fails to copy the ADOM-level policy or object to device database",
+                "C. An operation that fails to copy the policy to the VDOM"
+            ],
+            "answer": "B"
+        },
+        "54": {
+            "question": "An administrator configured a new firewall policy on FortiManager and has not yet pushed the changes to the managed FortiGate. In which database will configuration be saved?\n",
+            "options": [
+                "A. ADOM-Level database",
+                "B. Device-Level database"
+            ],
+            "answer": "A"
         }
     }
 }
